@@ -101,27 +101,4 @@ const markup = itemsTemplate(images);
   captionDelay: 250,
 });
 
-// document.addEventListener('DOMContentLoaded', () => {
-//   const markup = itemsTemplate(images);
-//   ulElem.innerHTML = markup;});
 
-//   ulElem.addEventListener('click', e => {
-//   e.preventDefault();
-//   console.log(e.target.nodeName);
-
-//   if (e.target.nodeName !== 'IMG') {
-//     return;
-//   }
-
-//   showModal(e.target.dataset.source);
-// });
-
-
-// function showModal(imageUrl) {
-//   console.log(imageUrl);
-
-//   const instance = basicLightbox.create(`
-//   		<img width="800" src="${imageUrl}"/>
-//   `);
-//   instance.show();
-// }
